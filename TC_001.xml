@@ -1,0 +1,14 @@
+<suite name="MySuite">
+	<test name="Mytest">
+		<classes>
+			<class name="com.practice.Tc_001">
+				<methods>
+					<include name="Tc_003" />
+					<include name="Tc_002" />
+				</methods>
+			</class>
+			
+			
+		</classes>
+	</test>
+</suite>

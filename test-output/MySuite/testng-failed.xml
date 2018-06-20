@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test name="Mytest(failed)">
+    <classes>
+      <class name="com.practice.Tc_001">
+        <methods>
+          <include name="method1"/>
+          <include name="Tc_003"/>
+          <include name="method2"/>
+          <include name="class2"/>
+          <include name="class1"/>
+        </methods>
+      </class> <!-- com.practice.Tc_001 -->
+    </classes>
+  </test> <!-- Mytest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
